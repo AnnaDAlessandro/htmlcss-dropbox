@@ -15,20 +15,63 @@ header button{
     border: 0;
     background-color: white;
     font-size: 15px;
+    padding: 20px;
+    color:#a3a3a3 ;
     }
 
-.contenitor-header .menu1 .menu2{
-    display: flex;
-    align-items: center;
-    
-}
-header{
-    padding: 20px;
-}
+
+
 .menu2{
     margin-right: 15px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+
 }
 
 .menu1{
     margin-left: 15px ;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.button-blue{
+    background-color: #0061ff;
+    padding: 8px 15px;
+    color: white;
+}
+
+.button-blue:hover{
+    background-color:#0093ce ;
+}
+
+.section1{
+background-color: 
+#b4d0e7;
+height: 550px;
+}
+
+.section1 h1{
+    font-size: 70px;
+    text-align:left;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contenitore2{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.contenitore2 button{
+    display: block;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 15px;
 }
