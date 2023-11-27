@@ -43,30 +43,34 @@ header button{
 }
 
 .button-blue:hover{
-    background-color:#0093ce ;
+    opacity:0.8 ;
 }
 
 .section1{
 background-color: 
 #b4d0e7;
-height: 550px;
+height: 600px;
 }
 
 .section1 h1{
     font-size: 70px;
     text-align:left;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+
 }
 .contenitore2{
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 .contenitore2 button{
     display: block;
+    border: 0;
 }
 
 .parte1{
@@ -74,4 +78,69 @@ height: 550px;
     flex-direction: column;
     gap: 30px;
     font-size: 15px;
+    align-items: flex-start;
+}
+.button-nocolor{
+    background-color:#b4d0e7 ;
+}
+
+.parte1 svg{
+    height: 40px;
+    text-align: left;
+}
+.section2{
+    padding-top: 140px;
+    width: 70%;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.svg1{
+    fill:#0061ff ;
+
+}
+.svg2{
+    fill: 
+    #c3c3c3;
+}
+.title span{
+    padding-right: 40px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 40px;
+    border-color:1px solid #c3c3c3;
+}
+
+.section3 ul li{
+    list-style-type: none;
+}
+.spn-grey{
+    color: #d0d0d3;
+}
+.table2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.table2 span a {
+    color:#0061ff ;
+}
+.table2 hr{
+    color: #d0d0d3 ;
+    width: 40px;
+}
+.table1{
+    flex-basis: calc(100%/3);
+}
+.table1 h4{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
 }
